@@ -1,0 +1,211 @@
+/* ------------ GLOBAL VAR ------------ */
+body{
+    margin: 0;
+}
+
+/* ------------ END GLOBAL VAR -------- */
+/*NAV*/
+nav{
+    height: 70px;
+    width: 100%;
+    background-color: #36312C;
+    color: #36312C;
+
+}
+nav img{
+    height:70px;
+}
+nav ul, li{
+    display: block;
+    float: right;
+    color: white;
+    margin-right: 20px;
+    font-size: x-large;
+    font-weight: 700;
+}
+/* ------------ LANDING PICTURE ------- */
+.landing_picture{
+    clear: both;
+    margin: 1px 0 0 0;
+    display: flex;
+    flex: 1;
+    width: 100%;
+    text-align: left;
+    flex-direction: column;
+    background-image: url("../images/fs-banner.jpg");
+    background-size: cover;
+}
+.landing_picture img{
+    max-width: 100%;
+
+}
+.landing_picture h1{
+    padding: 10% 0 0 10%;
+    color: #36312C;
+    font-size: 400%;
+}
+.landing_picture h2{
+    margin: -1% 0 0 15%;
+    color: #36312C;
+    font-size: 270%;
+}
+button[type=button]{
+    background-color: #FF8619;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: larger;
+}
+button[type=button]:hover{
+    font-size: xx-large;
+}
+/*.landing_picture a{*/
+    /*text-align: center;*/
+/*}*/
+
+.landing_picture div{
+    text-align: center;
+    margin: 2em;
+    min-height: 70px;
+}
+
+/*********four icons*************/
+.fourIcons
+{
+    display: flex;
+    background-color: #36312C;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.fourIcons div
+
+{
+    /*background-color: green;*/
+    display: flex;
+    margin: auto auto auto auto;
+    flex-direction: column;
+    text-align: center;
+    color: /*#FF8619*/ #E5D2BC;
+
+}
+
+.fourIcons div i
+{
+    /*font-size:8em;*/
+}
+
+.fourIcons div span
+{
+    font-size:5em;
+    padding: 3px;
+}
+/*********************************/
+/*********about authors***********/
+
+.authors h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: #FF8619;
+    margin-bottom: 30px;
+}
+
+.authorsPosition{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.authors{
+    margin-top: 20em;
+    margin-bottom: 20em;
+    text-align: center;
+}
+
+div.author{
+    /*display: inline-block;*/
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+div.icons{
+    display: inline-block;
+    width: 30px;
+    /*height: 369px;*/
+}
+
+.photo{
+    width: 200px;
+    height: 300px;
+    font-size: 200px;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.icon:hover{
+    width: 30px;
+    height: 30px;
+}
+
+.name{
+    position: relative;
+    color: #FF8619;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.function{
+    color: #36312C;
+}
+
+.authorInfo {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+}
+
+
+/*********************************/
+/***********Coming soon***********/
+
+.comingsoon{
+    margin: 20em auto;
+    width: 100%;
+}
+
+.comingsoon h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: #FF8619;
+}
+
+.comingsoon h2{
+    color: #36312C;
+}
+
+.radiusLeft{
+    border-radius: 50px 0px 0px 50px;
+}
+
+.signUp{
+    /*border: 0;*/
+    border-radius: 0px 50px 50px 0px;
+    font-weight: bold;
+    background: #FF8619;
+    color: white;
+}
+
+div .information{
+    color: #36312C;
+}
+/*********************************/
